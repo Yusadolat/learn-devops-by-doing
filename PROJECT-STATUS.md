@@ -41,7 +41,7 @@
    - ✅ Health checks
    - ✅ Service dependencies
 
-### Learning Materials (Weeks 1-2 Complete)
+### Learning Materials (Weeks 1-3 Complete)
 
 1. **Week 1 Exercises** (`exercises/week-1-docker/`)
    - ✅ Comprehensive Docker exercises
@@ -57,11 +57,26 @@
    - ✅ Scaling exercises
    - ✅ Volume management
 
-3. **Documentation** (`docs/`)
+3. **Week 3 Exercises** (`exercises/week-3-k8s/`)
+   - ✅ Kubernetes basics (Pods, Deployments, Services)
+   - ✅ ConfigMaps and Secrets management
+   - ✅ Namespace organization
+   - ✅ 9 hands-on exercises
+   - ✅ Complete solutions
+   - ✅ Quick start guide
+   - ✅ Self-assessment questions
+
+4. **Documentation** (`docs/`)
    - ✅ Quick Start Guide (SETUP.md)
    - ✅ Complete architecture overview
    - ✅ Service READMEs
    - ✅ Main project README
+
+5. **Infrastructure** (`infrastructure/kubernetes/`)
+   - ✅ Sample Kubernetes manifests
+   - ✅ Deployment configurations
+   - ✅ Service definitions
+   - ✅ Complete README with best practices
 
 ---
 
@@ -91,33 +106,26 @@
 
 ---
 
-### 2. Week 3-4: Kubernetes Exercises
+### 2. Week 4: Advanced Kubernetes (High Priority)
 
-**Location**: `exercises/week-3-k8s/`, `exercises/week-4-k8s/`
+**Location**: `exercises/week-4-k8s/`
 
 **Needs to Cover**:
 
-**Week 3: Kubernetes Basics**
-- Pod definitions
-- Deployment manifests
-- Service configurations (ClusterIP, NodePort, LoadBalancer)
-- ConfigMaps and Secrets
-- Namespace organization
-
-**Week 4: Advanced Kubernetes**
-- Ingress configuration
+- Ingress controllers and HTTP routing
 - StatefulSets for databases
 - PersistentVolumes and PersistentVolumeClaims
-- Helm chart creation
-- Resource limits and requests
+- Helm chart creation and management
+- Resource quotas and limits
+- Advanced networking concepts
 
 **Deliverables Needed**:
 - Exercise READMEs with step-by-step tasks
-- Sample Kubernetes manifests in `infrastructure/kubernetes/`
+- Advanced Kubernetes manifests
 - Helm charts in `infrastructure/helm/`
 - Solutions and explanations
 
-**Estimated Time**: 10-12 hours
+**Estimated Time**: 8-10 hours
 
 ---
 
@@ -284,7 +292,7 @@ learn-devops/
 ├── infrastructure/
 │   ├── docker/
 │   │   └── docker-compose.yml          ✅ Complete
-│   ├── kubernetes/                     ❌ TODO: K8s manifests
+│   ├── kubernetes/                     ✅ Complete (NEW!)
 │   ├── helm/                           ❌ TODO: Helm charts
 │   └── terraform/                      ❌ TODO: Terraform modules
 ├── ci-cd/
@@ -292,7 +300,7 @@ learn-devops/
 ├── exercises/
 │   ├── week-1-docker/                  ✅ Complete
 │   ├── week-2-docker/                  ✅ Complete
-│   ├── week-3-k8s/                     ❌ TODO
+│   ├── week-3-k8s/                     ✅ Complete (NEW!)
 │   ├── week-4-k8s/                     ❌ TODO
 │   ├── week-5-cicd/                    ❌ TODO
 │   ├── week-6-cicd/                    ❌ TODO
@@ -330,11 +338,11 @@ learn-devops/
 
 - **Backend Services**: 100% ✅
 - **Docker Infrastructure**: 100% ✅
-- **Weeks 1-2 Exercises**: 100% ✅
-- **Documentation**: 80% ✅
-- **Overall Project**: ~35% complete
+- **Weeks 1-3 Exercises**: 100% ✅
+- **Documentation**: 90% ✅
+- **Overall Project**: ~45% complete
 
-**Estimated Time to 100%**: 40-50 hours of focused work
+**Estimated Time to 100%**: 35-45 hours of focused work
 
 ---
 
