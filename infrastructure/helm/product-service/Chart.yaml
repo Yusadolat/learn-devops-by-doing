@@ -1,0 +1,13 @@
+apiVersion: v2
+name: product-service
+description: A Helm chart for Product Service microservice
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+keywords:
+  - microservice
+  - ecommerce
+  - product
+maintainers:
+  - name: Your Name
+    email: you@example.com
