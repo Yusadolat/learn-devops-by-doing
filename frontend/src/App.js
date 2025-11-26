@@ -11,6 +11,9 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Cart from './components/Cart';
 import Orders from './components/Orders';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 // Protected Route wrapper
 const ProtectedRoute = ({ children }) => {
@@ -66,3 +69,4 @@ function App() {
 }
 
 export default App;
+
